@@ -56,8 +56,18 @@ learn-coding/
 │   │   ├── README.md
 │   │   ├── basic-array.js      # Code examples
 │   │   └── ...
-│   ├── 02-linked-lists/        # Linked lists topic
-│   └── 03-stacks-queues/       # Stacks & queues topic
+│   ├── 02-linked-lists/
+│   └── 03-stacks-queues/
+├── coding-patterns/             # Competitive programming patterns
+│   ├── README.md               # Pattern overview
+│   ├── 01-two-pointers/        # Two pointer pattern
+│   │   ├── README.md
+│   │   ├── examples.js
+│   │   └── templates.js
+│   ├── 02-sliding-window/      # Sliding window pattern
+│   ├── 03-binary-search/       # Binary search pattern
+│   ├── 04-dfs-bfs/             # Graph traversal patterns
+│   └── 05-dynamic-programming/ # DP pattern
 ├── examples/                    # General code examples
 ├── tutorials/                   # Step-by-step guides
 │   └── arrays-101.md           # Tutorial: Introduction to Arrays
@@ -111,6 +121,44 @@ Choose a learning path based on your current level and interests:
 - System design
 - Performance optimization
 - Architecture patterns
+
+## 🏆 Competitive Programming Patterns
+
+Master essential coding patterns used in technical interviews and coding competitions.
+
+### Available Patterns
+
+**[View All Patterns →](./coding-patterns)**
+
+1. **Two Pointers** - Solve array/string problems with dual traversal
+2. **Sliding Window** - Find optimal subarrays/substrings efficiently
+3. **Binary Search** - Divide and conquer sorted data in O(log n)
+4. **DFS & BFS** - Graph and tree traversal techniques
+5. **Dynamic Programming** - Solve overlapping subproblems optimally
+
+### Why Learn Patterns?
+
+- 🎯 **Recognize** problem types quickly
+- ⚡ **Apply** proven solutions efficiently
+- 🚀 **Interview ready** for technical assessments
+- 💪 **Competitive programming** prepared
+- 🧠 **Build muscle memory** through practice
+
+### Getting Started with Patterns
+
+1. Pick a pattern (start with Two Pointers or Sliding Window)
+2. Understand the concepts and key ideas
+3. Study the provided examples and templates
+4. Solve the easy practice problems first
+5. Progress to medium and hard difficulties
+6. Implement solutions from scratch
+
+### Pattern Learning Timeline
+
+- **Week 1-2**: Two Pointers + Sliding Window
+- **Week 3**: Binary Search
+- **Week 4-5**: DFS & BFS
+- **Week 6+**: Dynamic Programming (complex!)
 
 ## 📁 How to Organize Content by Folder
 
