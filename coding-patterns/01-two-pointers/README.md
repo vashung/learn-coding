@@ -1,5 +1,18 @@
 # Two Pointers Pattern
 
+## 🌐 Choose Your Language
+
+**View this pattern in your preferred language:**
+
+| 🔤 JavaScript | 🐍 Python | ☕ Java |
+|---|---|---|
+| [examples.js](./examples.js) | [examples.py](./examples.py) | [examples.java](./examples.java) |
+| [templates.js](./templates.js) | templates.py (coming) | templates.java (coming) |
+
+**[📋 Full Language Guide →](./LANGUAGE_GUIDE.md)**
+
+---
+
 ## Overview
 
 The two-pointer technique uses two pointers to traverse an array or string, typically moving toward each other or in the same direction. This pattern is highly efficient for finding pairs or comparing elements.

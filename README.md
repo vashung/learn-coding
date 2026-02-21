@@ -5,7 +5,19 @@ A comprehensive learning resource repository for aspiring developers. This repos
 [![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Last Updated](https://img.shields.io/badge/last%20updated-2026-brightgreen)]()
 
-## 📖 Table of Contents
+---
+
+## 🗺️ Quick Navigation
+
+**New Here?** Start with one of these:
+- 📖 [**Complete Folder Guide**](./NAVIGATION.md) - See entire repo structure
+- 🚀 [**Quick Start Guide**](./docs/SETUP.md) - Set up your environment  
+- 🎓 [**Learning Paths**](#learning-paths) - Choose your starting point below
+
+**Categories:**
+| [Data Structures](#data-structures) | [Coding Patterns](#-competitive-programming-patterns) | [Tutorials](./tutorials/arrays-101.md) | [Cheat Sheets](./cheat-sheets/) | [Practice Problems](./practice-problems/) |
+
+---
 
 - [About](#about)
 - [Quick Start](#quick-start)
