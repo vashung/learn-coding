@@ -7,7 +7,7 @@
 <details open>
 <summary><strong>JavaScript</strong> 🔤</summary>
 
-### JavaScript Implementation
+### JavaScript Implementation. 
 
 ```javascript
 // Problem 1: Two Sum II
@@ -20,7 +20,7 @@ function twoSum(nums, target) {
     else right--;
   }
   return null;
-}
+} 
 
 // Problem 2: Valid Palindrome
 function isPalindrome(str) {
