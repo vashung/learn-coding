@@ -148,6 +148,15 @@ Master essential coding patterns used in technical interviews and coding competi
 4. **DFS & BFS** - Graph and tree traversal techniques
 5. **Dynamic Programming** - Solve overlapping subproblems optimally
 
+### 🌐 Multi-Language Examples
+
+Each pattern displays **toggleable code examples** in:
+- **JavaScript** 🔤
+- **Python** 🐍
+- **Java** ☕
+
+Just click to expand your preferred language on any pattern page!
+
 ### Why Learn Patterns?
 
 - 🎯 **Recognize** problem types quickly

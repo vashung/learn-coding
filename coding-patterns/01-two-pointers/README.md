@@ -2,14 +2,145 @@
 
 ## 🌐 Choose Your Language
 
-**View this pattern in your preferred language:**
+**Select language below to view code examples:**
 
-| 🔤 JavaScript | 🐍 Python | ☕ Java |
-|---|---|---|
-| [examples.js](./examples.js) | [examples.py](./examples.py) | [examples.java](./examples.java) |
-| [templates.js](./templates.js) | templates.py (coming) | templates.java (coming) |
+<details open>
+<summary><strong>JavaScript</strong> 🔤</summary>
 
-**[📋 Full Language Guide →](./LANGUAGE_GUIDE.md)**
+### JavaScript Implementation
+
+```javascript
+// Problem 1: Two Sum II
+function twoSum(nums, target) {
+  let left = 0, right = nums.length - 1;
+  while (left < right) {
+    const sum = nums[left] + nums[right];
+    if (sum === target) return [nums[left], nums[right]];
+    if (sum < target) left++;
+    else right--;
+  }
+  return null;
+}
+
+// Problem 2: Valid Palindrome
+function isPalindrome(str) {
+  const cleaned = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+  let left = 0, right = cleaned.length - 1;
+  while (left < right) {
+    if (cleaned[left] !== cleaned[right]) return false;
+    left++;
+    right--;
+  }
+  return true;
+}
+
+// Problem 3: Remove Duplicates
+function removeDuplicates(nums) {
+  let i = 0;
+  for (let j = 1; j < nums.length; j++) {
+    if (nums[j] !== nums[i]) {
+      i++;
+      nums[i] = nums[j];
+    }
+  }
+  return i + 1;
+}
+```
+
+**[View Full JavaScript Examples →](./examples.js)**
+
+</details>
+
+<details>
+<summary><strong>Python</strong> 🐍</summary>
+
+### Python Implementation
+
+```python
+# Problem 1: Two Sum II
+def two_sum(nums, target):
+    left, right = 0, len(nums) - 1
+    while left < right:
+        current_sum = nums[left] + nums[right]
+        if current_sum == target:
+            return [nums[left], nums[right]]
+        if current_sum < target:
+            left += 1
+        else:
+            right -= 1
+    return None
+
+# Problem 2: Valid Palindrome
+def is_palindrome(s):
+    cleaned = ''.join(char.lower() for char in s if char.isalnum())
+    left, right = 0, len(cleaned) - 1
+    while left < right:
+        if cleaned[left] != cleaned[right]:
+            return False
+        left += 1
+        right -= 1
+    return True
+
+# Problem 3: Remove Duplicates
+def remove_duplicates(nums):
+    i = 0
+    for j in range(1, len(nums)):
+        if nums[j] != nums[i]:
+            i += 1
+            nums[i] = nums[j]
+    return i + 1
+```
+
+**[View Full Python Examples →](./examples.py)**
+
+</details>
+
+<details>
+<summary><strong>Java</strong> ☕</summary>
+
+### Java Implementation
+
+```java
+// Problem 1: Two Sum II
+public static int[] twoSum(int[] nums, int target) {
+    int left = 0, right = nums.length - 1;
+    while (left < right) {
+        int sum = nums[left] + nums[right];
+        if (sum == target) return new int[]{nums[left], nums[right]};
+        if (sum < target) left++;
+        else right--;
+    }
+    return null;
+}
+
+// Problem 2: Valid Palindrome
+public static boolean isPalindrome(String s) {
+    String cleaned = s.toLowerCase().replaceAll("[^a-z0-9]", "");
+    int left = 0, right = cleaned.length() - 1;
+    while (left < right) {
+        if (cleaned.charAt(left) != cleaned.charAt(right)) return false;
+        left++;
+        right--;
+    }
+    return true;
+}
+
+// Problem 3: Remove Duplicates
+public static int removeDuplicates(int[] nums) {
+    int i = 0;
+    for (int j = 1; j < nums.length; j++) {
+        if (nums[j] != nums[i]) {
+            i++;
+            nums[i] = nums[j];
+        }
+    }
+    return i + 1;
+}
+```
+
+**[View Full Java Examples →](./examples.java)**
+
+</details>
 
 ---
 

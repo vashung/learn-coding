@@ -67,10 +67,16 @@ Build solutions from smaller subproblems with memoization/tabulation.
 ## How to Use This Section
 
 Each pattern folder contains:
-- **README.md** - Pattern explanation & concepts
-- **examples.js** - Practical implementations
-- **problems.md** - Practice problems with solutions
-- **templates.js** - Template code for quick start
+- **README.md** - Pattern explanation with **toggleable code examples** in all languages
+- **Reference files** - Full implementations for deeper study (examples.js, examples.py, examples.java)
+- **Templates** - Quick-start code snippets
+
+### 🎯 Quick Start
+1. Visit any pattern folder (01-two-pointers, 02-sliding-window, etc.)
+2. Open the **README.md** file
+3. **Toggle between languages** to see the code in your preferred language
+4. Click links to view full reference implementations
+5. Copy examples to practice
 
 ## Learning Strategy
 

@@ -95,39 +95,53 @@ learn-coding/
 ### Competitive Programming Path
 
 1. **Two Pointers** (START HERE)
-   - `/coding-patterns/01-two-pointers/README.md` - Concepts
-   - `/coding-patterns/01-two-pointers/examples.js` - JavaScript
-   - `/coding-patterns/01-two-pointers/examples.py` - Python
-   - `/coding-patterns/01-two-pointers/examples.java` - Java
+   - `/coding-patterns/01-two-pointers/README.md` - **Toggleable examples** in JS/Python/Java
+   - Click sections to expand your language
+   - [Full reference implementations](./coding-patterns/01-two-pointers/examples.js)
 
 2. **Sliding Window**
-   - `/coding-patterns/02-sliding-window/README.md`
-   - Examples coming soon
+   - `/coding-patterns/02-sliding-window/README.md` - **Toggleable examples** (coming)
 
 3. **Binary Search**
-   - `/coding-patterns/03-binary-search/README.md`
-   - Examples coming soon
+   - `/coding-patterns/03-binary-search/README.md` - **Toggleable examples** (coming)
 
 4. **Graph Traversal (DFS & BFS)**
-   - `/coding-patterns/04-dfs-bfs/README.md`
-   - Examples coming soon
+   - `/coding-patterns/04-dfs-bfs/README.md` - **Toggleable examples** (coming)
 
 5. **Dynamic Programming**
-   - `/coding-patterns/05-dynamic-programming/README.md`
-   - Examples coming soon
+   - `/coding-patterns/05-dynamic-programming/README.md` - **Toggleable examples** (coming)
 
 ---
 
-## 📍 File Types Guide
+## 🌍 Multi-Language Support
 
-| Symbol | Meaning |
-|--------|---------|
-| 📖 | Main documentation |
-| 📄 | Support files (config, license) |
-| 📁 | Folder/directory |
-| 📊 | Data/reference materials |
-| 💻 | Code files |
-| 🔗 | Related links |
+### How It Works
+
+Each pattern's **README.md** contains **interactive code examples** with language toggles:
+- JavaScript 🔤
+- Python 🐍
+- Java ☕
+
+**Simply click to expand your preferred language and see the code!**
+
+### Reference Implementations
+
+For deep study, full reference files are available:
+- `examples.js` - Complete JavaScript implementation
+- `examples.py` - Complete Python implementation  
+- `examples.java` - Complete Java implementation
+
+All solve the same problems to help you compare language approaches.
+
+### Example: Two Pointers Pattern
+
+1. Open [README.md](./coding-patterns/01-two-pointers/README.md)
+2. See the language toggles at the top
+3. Click JavaScript, Python, or Java to expand
+4. View code examples right on the page
+5. Click links for full reference implementations
+
+**No need to navigate between files - see all languages in one place!**
 
 ---
 
@@ -176,34 +190,67 @@ learn-coding/
 
 ## 💾 Adding Content
 
-### Add a New Data Structure
-```bash
-mkdir -p data-structures/04-new-structure
-touch data-structures/04-new-structure/README.md
-# Add examples, tutorials, and problems
-```
-
-### Add Examples in New Language
-```bash
-# For existing pattern, add new language
-cp coding-patterns/01-two-pointers/examples.js \
-   coding-patterns/01-two-pointers/examples.go
-# Edit examples.go with Go implementations
-```
-
 ### Add a New Pattern
-```bash
-mkdir -p coding-patterns/06-new-pattern
-touch coding-patterns/06-new-pattern/README.md
-# Add examples for JavaScript, Python, Java
-```
 
-### Add Practice Problems
-```bash
-mkdir -p practice-problems/new-topic/easy
-touch practice-problems/new-topic/easy/problem-1.md
-# Document problem and link to solutions
-```
+1. Create the pattern folder:
+   ```bash
+   mkdir -p coding-patterns/06-new-pattern
+   touch coding-patterns/06-new-pattern/README.md
+   ```
+
+2. In **README.md**, add toggleable language sections:
+   ```markdown
+   ## 🌐 Choose Your Language
+   
+   <details>
+   <summary><strong>JavaScript</strong> 🔤</summary>
+   
+   ### JavaScript Implementation
+   \`\`\`javascript
+   // Your JavaScript code here
+   \`\`\`
+   </details>
+   
+   <details>
+   <summary><strong>Python</strong> 🐍</summary>
+   
+   ### Python Implementation
+   \`\`\`python
+   # Your Python code here
+   \`\`\`
+   </details>
+   
+   <details>
+   <summary><strong>Java</strong> ☕</summary>
+   
+   ### Java Implementation
+   \`\`\`java
+   // Your Java code here
+   \`\`\`
+   </details>
+   ```
+
+3. Optionally add full reference files:
+   - `examples.js` - Complete JavaScript
+   - `examples.py` - Complete Python
+   - `examples.java` - Complete Java
+
+4. Update `INDEX.md` with your new pattern
+
+### Update Existing Patterns
+
+To add more examples to Two Pointers or other patterns:
+
+1. Edit the pattern's **README.md**
+2. Add more `<details>` sections for each language
+3. Show code snippets with toggles
+4. Link to full reference files if available
+
+### Keep It Simple
+
+- **Page sections** = Quick learning (toggleable view)
+- **Reference files** = Deep study (full implementations)
+- **Users see what they need** on the main page!
 
 ---
 

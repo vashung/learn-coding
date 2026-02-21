@@ -6,18 +6,22 @@ Quick reference for all files in the coding-patterns folder.
 
 ## 📁 01-Two Pointers
 
-| File | Purpose | Status |
-|------|---------|--------|
-| `README.md` | Pattern explanation & concepts | ✅ Complete |
-| `examples.js` | JavaScript implementations (7 problems) | ✅ Complete |
-| `examples.py` | Python implementations (7 problems) | ✅ Complete |
-| `examples.java` | Java implementations (7 problems) | ✅ Complete |
-| `templates.js` | JS reusable templates | ✅ Complete |
-| `templates.py` | Python reusable templates | 🔄 Coming |
-| `templates.java` | Java reusable templates | 🔄 Coming |
-| `LANGUAGE_GUIDE.md` | Language switcher & comparison | ✅ Complete |
+| File | Purpose | Type |
+|------|---------|------|
+| `README.md` | Pattern explanation with toggleable examples | 📄 Main Page |
+| `examples.js` | Full JavaScript reference implementation | 📚 Reference |
+| `examples.py` | Full Python reference implementation | 📚 Reference |
+| `examples.java` | Full Java reference implementation | 📚 Reference |
+| `templates.js` | JS reusable templates | 📚 Reference |
+| `LANGUAGE_GUIDE.md` | Language comparison guide | 📄 Guide |
 
-**Problems Covered:** 7
+**✨ What You'll See:**
+- Open `README.md` to see interactive code examples
+- Toggle between JavaScript, Python, Java
+- Click links to view complete reference implementations
+- All 7 problems covered with working code
+
+**7 Problems Included:**
 - Two Sum II
 - Valid Palindrome
 - Remove Duplicates  
@@ -82,13 +86,17 @@ Quick reference for all files in the coding-patterns folder.
 
 ## 🌍 Language Support Summary
 
-| Pattern | JavaScript | Python | Java | Go | C++ |
-|---------|-----------|--------|------|----|----|
-| Two Pointers | ✅ | ✅ | ✅ | 🔄 | 🔄 |
-| Sliding Window | 🔄 | 🔄 | 🔄 | 🔄 | 🔄 |
-| Binary Search | 🔄 | 🔄 | 🔄 | 🔄 | 🔄 |
-| DFS & BFS | 🔄 | 🔄 | 🔄 | 🔄 | 🔄 |
-| Dynamic Programming | 🔄 | 🔄 | 🔄 | 🔄 | 🔄 |
+**All patterns display examples in all languages via toggleable sections on the README:**
+
+| Pattern | Page Examples | Full Reference Files |
+|---------|---------------|---------------------|
+| Two Pointers | ✅ JS/Python/Java | ✅ All available |
+| Sliding Window | 🔄 Coming | - |
+| Binary Search | 🔄 Coming | - |
+| DFS & BFS | 🔄 Coming | - |
+| Dynamic Programming | 🔄 Coming | - |
+
+**Note:** Each pattern's README shows code examples with language toggles. Full reference files are available for deeper study.
 
 ---
 
