@@ -7,7 +7,7 @@
 1. **Install Git**
    ```bash
    brew install git
-   ```
+   ``` 
 
 2. **Configure Git**
    ```bash
