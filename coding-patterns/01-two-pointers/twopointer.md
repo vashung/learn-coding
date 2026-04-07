@@ -236,4 +236,56 @@ public int[] merge(int[] nums1, int m, int[] nums2, int n) {
 #### 5. **Removing duplicates**: 
 Use two pointers to remove duplicates from a sorted array in place.
 
+```python
+def remove_duplicates(nums):
+    if not nums:
+        return 0
+    i = 0
+    for j in range(1, len(nums)):
+        if nums[j] != nums[i]:
+            i += 1
+            nums[i] = nums[j]   
+    return i + 1
+
+
+# using hash map set to track seen elements
+def remove_duplicates(nums):
+    seen = set()
+    i = 0
+    for j in range(len(nums)):
+        if nums[j] not in seen:
+            seen.add(nums[j])
+            nums[i] = nums[j]
+            i += 1
+    return i
+```
+
+```java
+// Problem 3: Remove Duplicates
+function removeDuplicates(nums) {
+  let i = 0;
+  for (let j = 1; j < nums.length; j++) {
+    if (nums[j] !== nums[i]) {
+      i++;
+      nums[i] = nums[j];
+    }
+  }
+  return i + 1;
+}
+
+// using hash set to track seen elements
+public int removeDuplicates(int[] nums) {
+    Set<Integer> seen = new HashSet<>();
+    int i = 0;  
+    for (int j = 0; j < nums.length; j++) {
+        if (!seen.contains(nums[j])) {
+            seen.add(nums[j]);
+            nums[i] = nums[j];
+            i++;
+        }
+    }
+    return i;
+}
+``
+
 
