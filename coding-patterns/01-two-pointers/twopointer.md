@@ -49,6 +49,19 @@ def two_sum(nums, target):
         else:
             right -= 1
     return []
+
+# using complement
+def two_sum(nums, target):
+    left, right = 0, len(nums) - 1
+    while left < right:
+        complement = target - nums[left]
+        if nums[right] == complement:
+            return [left, right]
+        elif nums[right] > complement:
+            right -= 1
+        else:
+            left += 1
+    return []
 ```
 
 ```java
@@ -68,6 +81,30 @@ public int[] twoSum(int[] nums, int target) {
     }
     return new int[]{-1, -1}; // No pair found
 }
+
+// using complement
+/*
+    target - nums[left] = complement
+    if nums[right] == complement, we found the pair
+    if nums[right] > complement, we need to decrease right pointer
+    if nums[right] < complement, we need to increase left pointer   
+ */
+public int[] twoSum(int[] nums, int target) {
+    int left = 0, right = nums.length - 1;
+    while (left < right) {
+        int complement = target - nums[left];
+        if (nums[right] == complement) {
+            return new int[]{left, right};
+        } else if (nums[right] > complement) {
+            right--;
+        } else {
+            left++;
+        }
+    }
+    return new int[]{-1, -1}; // No pair found
+}
+
+
 ```
 
 
